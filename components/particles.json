@@ -1,15 +1,15 @@
 {
+  "pauseOnOutsideViewport": true,
   "fullscreen": {
-    "enable": false,
+    "enable": true,
     "zIndex": -1
   },
-  "fpsLimit": 120,
+  "fpsLimit": 60,
   "interactivity": {
-    "detect_on": "canvas",
     "events": {
       "onClick": {
-        "enable": false,
-        "mode": "push"
+        "enable": true,
+        "mode": "repulse"
       },
       "onHover": {
         "enable": true,
@@ -45,25 +45,26 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 3,
+      "speed": 2,
       "straight": false
     },
     "number": {
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 1700
       },
+      "limit": 300,
       "value": 80
     },
     "opacity": {
       "value": 0.5
     },
     "shape": {
-      "type": "circle"
+      "type": "square"
     },
     "size": {
       "random": true,
-      "value": 5
+      "value": 8
     }
   },
   "detectRetina": true

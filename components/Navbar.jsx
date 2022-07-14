@@ -20,8 +20,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-81 top-2">
-      <div className="flex justify-between items-center w-full h-full px-2 align-items 2xl:px-16">
+    <div className="fixed w-full h-81 top-0">
+      <div className="flex justify-between items-center w-full h-full px-2 align-items 2xl:px-8">
         <Image
           src="/../public/assets/photos/compsalogo.png"
           alt="/"

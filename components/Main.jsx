@@ -20,7 +20,6 @@ const Main = () => {
   return (
     <>
       <div className="container-style w-full h-[500px] sm:h-[600px] md:h-[700px] text-center bg-gradient-to-b from-[#c6b9fe] to-[#EEEBFD]">
-        <Particles options={particlesOptions} init={particlesInit} />
         <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
           <div>
             <h1 className="uppercase text-[4em] sm:text-[8em] md:text-[10em] tracking-[0.1em]">
@@ -49,6 +48,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      {/*<Particles options={particlesOptions} init={particlesInit} />*/}
     </>
   );
 };
